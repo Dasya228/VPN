@@ -104,6 +104,12 @@ button {
 .nav-link:hover::after {
   width: 70%;
 }
+.mobile-menu {
+  display: none;
+}
+.burger-menu {
+  display: none;
+}
 
 .btn-wrapper button:nth-child(1) {
   color: #0b132a;
@@ -254,8 +260,8 @@ p span {
 }
 
 .card-wrapper {
-  width: 330px;
-  height: 760px;
+  padding-bottom: 50px;
+  height: 100%;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -333,7 +339,7 @@ p span {
   margin-top: 50px;
 }
 .p-1 {
-  padding: 150px 0;
+  margin: 150px 0;
 }
 
 .logo-wrap {
